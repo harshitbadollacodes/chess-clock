@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e4b9b8eb31.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Chess Clock</title>
+</head>
+<body>
+    <div class="container">
+        <div class="buttons">
+            <div>
+                <button class="btn" data-time="1" data-inc="0">1 min</button>
+                <button class="btn" data-time="3" data-inc="0">3 min</button>
+            </div>
+            
+            <div>
+                <button class="btn" data-time="5" data-inc="0">5 min</button>
+                <button class="btn" data-time="10" data-inc="0">10 min</button>
+            </div>
+            <div>
+                <button class="btn" data-time="15" data-inc="0">15 min</button>
+                <button class="btn" data-time="30" data-inc="0">30 min</button>
+            </div>
+            <div>
+                <button class="btn" data-time="5" data-inc="5">5 | 5 </button>
+                <button class="btn" data-time="15" data-inc="2">15 | 2</button>
+            </div>
+            <div class="custom">
+                <div>
+                    <button class="btn-large btn-custom">custom</button>
+                </div>
+                <form>
+                    <div class="form-group">
+                        <input type="text" name="p1" class="p1" placeholder="Player 1 time">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="p2" class="p2" placeholder="Player 2 time">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" name="inc" class="inc" placeholder="Increment"> 
+                    </div>
+                    <div>
+                        <button class="btn-submit btn-large">Submit</button>
+                    </div>
+                </form>
+            </div>    
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
